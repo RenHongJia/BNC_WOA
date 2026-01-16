@@ -1,4 +1,4 @@
-function [it_gb_k2score,DAG] =Copy_2_of_Learn_bnc_woa_struct(data,bnetinfo,nPop,MaxIt,params)
+function [it_gb_k2score,DAG] =Learn_bnc_woa_struct(data,bnetinfo,nPop,MaxIt,params)
 
 
 
@@ -164,7 +164,7 @@ end
                 jj=jj+1;
              end
             if bt1+bt2~=beta
-                error('´íÎó');
+                error('    ');
             end
 
             newpop(i).Position = bestPos;
